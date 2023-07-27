@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>BrandName</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- CSS style sheets -->
+      <link rel="stylesheet" href="Style-Sheets\homepage.css">
+      <link rel="stylesheet" href="Style-Sheets\navbar.css">
+      <link rel="stylesheet" href="Style-Sheets\footer.css">
+
+      <!-- Bootstrap -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+      <!-- Google Fonts -->
+      <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+      />
+
+      <!-- Font Awesome CDN -->
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+      <!-- Boxicons CSS -->
+      <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+   </head>
+
+   <body>
+      <!-- NAVBAR -->
+      <nav class="navbar">
+         <div class="logo_item">
+           <i class="bx bx-menu" id="sidebarOpen"></i>
+           <img src="images\logo.png" alt="logo"></i>BrandName
+         </div>
+         <div class="search_bar">
+           <input type="text" placeholder="Search" />
+         </div>
+         <div class="navbar_content">
+           <i class="bi bi-grid"></i>
+           <i class='bx bx-sun' id="darkLight"></i>
+           <i class='bx bx-bell' ></i>
+           <img src="images\logo.png" alt="" class="profile" />
+         </div>
+       </nav>
+       <!-- sidebar -->
+       <nav class="sidebar">
+         <div class="menu_content">
+           <ul class="menu_items">
+             <div class="menu_title menu_dahsboard"></div>
+             <!-- duplicate or remove this li tag if you want to add or remove navlink with submenu -->
+             <!-- start -->
+             <li class="item">
+               <div href="#" class="nav_link submenu_item">
+                 <span class="navlink_icon">
+                   <i class="bx bx-home-alt"></i>
+                 </span>
+                 <span class="navlink">Home</span>
+                 <i class="bx bx-chevron-right arrow-left"></i>
+               </div>
+               <ul class="menu_items submenu">
+                 <a href="#" class="nav_link sublink">Nav Sub Link</a>
+                 <a href="#" class="nav_link sublink">Nav Sub Link</a>
+                 <a href="#" class="nav_link sublink">Nav Sub Link</a>
+                 <a href="#" class="nav_link sublink">Nav Sub Link</a>
+               </ul>
+             </li>
+             <!-- end -->
+             <!-- start -->
+             <li class="item">
+               <div href="#" class="nav_link submenu_item">
+                 <span class="navlink_icon">
+                   <i class="bx bx-grid-alt"></i>
+                 </span>
+                 <span class="navlink">Overview</span>
+                 <i class="bx bx-chevron-right arrow-left"></i>
+               </div>
+               <ul class="menu_items submenu">
+                 <a href="#" class="nav_link sublink">Nav Sub Link</a>
+                 <a href="#" class="nav_link sublink">Nav Sub Link</a>
+                 <a href="#" class="nav_link sublink">Nav Sub Link</a>
+                 <a href="#" class="nav_link sublink">Nav Sub Link</a>
+               </ul>
+             </li>
+             <!-- end -->
+           </ul>
+           <ul class="menu_items">
+             <div class="menu_title menu_editor"></div>
+             <!-- duplicate these li tag if you want to add or remove navlink only -->
+             <!-- Start -->
+             <li class="item">
+               <a href="#" class="nav_link">
+                 <span class="navlink_icon">
+                   <i class="bx bxs-magic-wand"></i>
+                 </span>
+                 <span class="navlink">Nav Item-1</span>
+               </a>
+             </li>
+             <!-- End -->
+             <li class="item">
+               <a href="#" class="nav_link">
+                 <span class="navlink_icon">
+                   <i class="bx bx-loader-circle"></i>
+                 </span>
+                 <span class="navlink">Nav Item-2</span>
+               </a>
+             </li>
+             <li class="item">
+               <a href="#" class="nav_link">
+                 <span class="navlink_icon">
+                   <i class="bx bx-filter"></i>
+                 </span>
+                 <span class="navlink">Nav Item-3</span>
+               </a>
+             </li>
+             <li class="item">
+               <a href="#" class="nav_link">
+                 <span class="navlink_icon">
+                   <i class="bx bx-cloud-upload"></i>
+                 </span>
+                 <span class="navlink">Nav Item-4</span>
+               </a>
+             </li>
+           </ul>
+           <ul class="menu_items">
+             <div class="menu_title menu_setting"></div>
+             <li class="item">
+               <a href="#" class="nav_link">
+                 <span class="navlink_icon">
+                   <i class="bx bx-flag"></i>
+                 </span>
+                 <span class="navlink">Nav Item-1</span>
+               </a>
+             </li>
+             <li class="item">
+               <a href="#" class="nav_link">
+                 <span class="navlink_icon">
+                   <i class="bx bx-medal"></i>
+                 </span>
+                 <span class="navlink">Nav Item-2</span>
+               </a>
+             </li>
+             <li class="item">
+               <a href="#" class="nav_link">
+                 <span class="navlink_icon">
+                   <i class="bx bx-cog"></i>
+                 </span>
+                 <span class="navlink">Nav Item-3</span>
+               </a>
+             </li>
+             <li class="item">
+               <a href="#" class="nav_link">
+                 <span class="navlink_icon">
+                   <i class="bx bx-layer"></i>
+                 </span>
+                 <span class="navlink">Nav Item-4</span>
+               </a>
+             </li>
+           </ul>
+           <!-- Sidebar Open / Close -->
+           <div class="bottom_content">
+             <div class="bottom expand_sidebar">
+               <span> Expand</span>
+               <i class='bx bx-log-in' ></i>
+             </div>
+             <div class="bottom collapse_sidebar">
+               <span> Collapse</span>
+               <i class='bx bx-log-out'></i>
+             </div>
+           </div>
+         </div>
+       </nav>
+       <section class="padding-other-than-navbar">
+
+
+        <div class="container col-xxl-8 px-4 py-5">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+              <img src="images\Console.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+              <!-- <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1> -->
+              <h1 id="main">Main</h1>
+              <h1><span id="typewriter">Title Here</span><span id="cursor">|</span></h1>
+              <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Hero-Section -->
+        <section class="hero-section">
+          <div id="main-part">
+                <h1 id="main">Main</h1>
+                <h1><span id="typewriter">Title Here</span><span id="cursor">|</span></h1>
+                <p class="intro-p">
+                    Lorem ipsum dolor sit amet. Nam dolores sapiente quo excepturi delectus cum minima expedita? Qui officia tempora est
+                </p>
+                <button class="button">Click Me</button><br>
+                <img src="images\Console.png" alt="icon" class="intro-img">
+          </div>
+        </section>
+
+        <!-- Features -->
+        <section class="features-section">
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <div class="icon-wrapper">
+                  <i class="fas fa-hammer"></i>
+                </div>
+                <h3>Service Heading</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                  consequatur necessitatibus eaque.
+                </p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="icon-wrapper">
+                  <i class="fas fa-brush"></i>
+                </div>
+                <h3>Service Heading</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                  consequatur necessitatibus eaque.
+                </p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="icon-wrapper">
+                  <i class="fas fa-wrench"></i>
+                </div>
+                <h3>Service Heading</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                  consequatur necessitatibus eaque.
+                </p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="icon-wrapper">
+                  <i class="fas fa-truck-pickup"></i>
+                </div>
+                <h3>Service Heading</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                  consequatur necessitatibus eaque.
+                </p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="icon-wrapper">
+                  <i class="fas fa-broom"></i>
+                </div>
+                <h3>Service Heading</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                  consequatur necessitatibus eaque.
+                </p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="icon-wrapper">
+                  <i class="fas fa-plug"></i>
+                </div>
+                <h3>Service Heading</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                  consequatur necessitatibus eaque.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <!-- Testimonials -->
+        <section id="testimonials">
+          <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h2 class="testimonial-text">
+                  I no longer have to sniff other dogs for love. I've found the
+                  hottest Corgi on TinDog. Woof.
+                </h2>
+                <img
+                  class="testimonial-image"
+                  src="images/dog-img.jpg"
+                  alt="dog-profile"
+                />
+                <em>Pebbles, New York</em>
+              </div>
+              <div class="carousel-item">
+                <h2 class="testimonial-text">
+                  My dog used to be so lonely, but with TinDog's help, they've found
+                  the love of their life. I think.
+                </h2>
+                <img
+                  class="testimonial-image"
+                  src="images/lady-img.jpg"
+                  alt="lady-profile"
+                />
+                <em>Beverly, Illinois</em>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#testimonial-carousel"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#testimonial-carousel"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+        <!-- Press -->
+        <section id="press">
+          <img class="press-logo" src="images/techcrunch.png" alt="tc-logo" />
+          <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
+          <img
+          class="press-logo"
+          src="images/bizinsider.png"
+          alt="biz-insider-logo"
+          />
+          <img class="press-logo" src="images/mashable.png" alt="mashable-logo" />
+        </section>
+
+        <!--Pricing -->
+        <section class="pricing">
+          <div class="wrapper">
+              <input type="radio" name="slider" id="tab-1">
+              <input type="radio" name="slider" id="tab-2" checked>
+              <input type="radio" name="slider" id="tab-3">
+              <header>
+              <label for="tab-1" class="tab-1">Basic</label>
+              <label for="tab-2" class="tab-2">Standard</label>
+              <label for="tab-3" class="tab-3">Team</label>
+              <div class="slider"></div>
+              </header>
+              <div class="card-area">
+              <div class="cards">
+                <div class="row row-1">
+                    <div class="price-details">
+                    <span class="price">19</span>
+                    <p>For beginner use</p>
+                    </div>
+                    <ul class="features">
+                    <li><i class="fas fa-check"></i><span>100 GB Premium Bandwidth</span></li>
+                    <li><i class="fas fa-check"></i><span>FREE 50+ Installation Scripts WordPress Supported</span></li>
+                    <li><i class="fas fa-check"></i><span>One FREE Domain Registration .com <br>and .np extensions only</span></li>
+                    <li><i class="fas fa-check"></i><span>Unlimited Email Accounts & Databases</span></li>
+                    </ul>
+                </div>
+                <div class="row row-2">
+                    <div class="price-details">
+                    <span class="price">99</span>
+                    <p>For professional use</p>
+                    </div>
+                    <ul class="features">
+                    <li><i class="fas fa-check"></i><span>Unlimited GB Premium Bandwidth</span></li>
+                    <li><i class="fas fa-check"></i><span>FREE 200+ Installation Scripts WordPress Supported</span></li>
+                    <li><i class="fas fa-check"></i><span>Five FREE Domain Registration .com <br>and .np extensions only</span></li>
+                    <li><i class="fas fa-check"></i><span>Unlimited Email Accounts & Databases</span></li>
+                    </ul>
+                </div>
+                <div class="row row-3">
+                    <div class="price-details">
+                    <span class="price">49</span>
+                    <p>For team collaboration</p>
+                    </div>
+                    <ul class="features">
+                    <li><i class="fas fa-check"></i><span>200 GB Premium Bandwidth</span></li>
+                    <li><i class="fas fa-check"></i><span>FREE 100+ Installation Scripts WordPress Supported</span></li>
+                    <li><i class="fas fa-check"></i><span>Two FREE Domain Registration .com <br>and .np extensions only</span></li>
+                    <li><i class="fas fa-check"></i><span>Unlimited Email Accounts & Databases</span></li>
+                    </ul>
+                </div>
+              </div>
+              </div>
+              <button>Choose plan</button>
+          </div>
+        </section>
+
+        <!-- Call to action -->
+        <section id="cta">
+          <h2 class="h2-cta">Find the True Love of Your Dog's Life Today.</h2>
+          <button class="button">Click Me</button>
+        </section>
+
+        <!-- Footer -->
+        <section class="footer">
+          <footer>
+            <div class="content">
+              <div class="top">
+                <div class="logo-details">
+                  <i class="fab fa-slack"></i>
+                  <span class="logo_name">BrandName</span>
+                </div>
+                <div class="media-icons">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+              </div>
+              <div class="link-boxes">
+                <ul class="box">
+                  <li class="link_name">Heading-1</li>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Contact us</a></li>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Get started</a></li>
+                </ul>
+                <ul class="box">
+                  <li class="link_name">Heading-2</li>
+                  <li><a href="#">Link-1</a></li>
+                  <li><a href="#">Link-2</a></li>
+                  <li><a href="#">Link-3</a></li>
+                  <li><a href="#">Link-4</a></li>
+                </ul>
+                <ul class="box">
+                  <li class="link_name">Heading-3</li>
+                  <li><a href="#">Link-1</a></li>
+                  <li><a href="#">Link-2</a></li>
+                  <li><a href="#">Link-3</a></li>
+                  <li><a href="#">Link-4</a></li>
+                </ul>
+                <ul class="box">
+                  <li class="link_name">Heading-4</li>
+                  <li><a href="#">Link-1</a></li>
+                  <li><a href="#">Link-2</a></li>
+                  <li><a href="#">Link-3</a></li>
+                  <li><a href="#">Link-4</a></li>
+                </ul>
+                <ul class="box input-box">
+                  <li class="link_name">Subscribe</li>
+                  <li><input type="text" placeholder="Enter your email"></li>
+                  <li><input type="button" value="Subscribe"></li>
+                </ul>
+              </div>
+            </div>
+            <div class="bottom-details">
+              <div class="bottom_text">
+                <span class="copyright_text">Copyright © 2023 <a href="#">BrandName.</a>All rights reserved</span>
+                <span class="policy_terms">
+                  <a href="#">Privacy policy</a>
+                  <a href="#">Terms & condition</a>
+                </span>
+              </div>
+            </div>          
+          </footer>
+        </section>
+
+     <script src="JavaScript\index.js"></script>
+     <script src="JavaScript\navbar.js"></script>
+
+   </body>
+</html>
